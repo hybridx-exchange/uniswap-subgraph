@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Uniswap is a decentralized protocol for automated token exchange on xdai.
-repository: https://github.com/xdai-uniswap/uniswap-v2-subgraph
+description: Uniswap is a decentralized protocol for automated token exchange on oasis-eth.
+repository: https://github.com/oasis-uniswap/uniswap-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
