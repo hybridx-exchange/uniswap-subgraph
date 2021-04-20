@@ -400,7 +400,7 @@ export function handleSwap(event: Swap): void {
     let amount1In = convertTokenToDecimal(event.params.amount1In, token1.decimals)
     let amount0Out = convertTokenToDecimal(event.params.amount0Out, token0.decimals)
     let amount1Out = convertTokenToDecimal(event.params.amount1Out, token1.decimals)
-    log.info("handleSwap, pair:{}/{}-{}", pair.id, token0.id, token1.id)
+    log.info("handleSwap, pair:{}/{}-{}", [pair.id, token0.id, token1.id])
 
     // totals for volume updates
     let amount0Total = amount0Out.plus(amount0In)
