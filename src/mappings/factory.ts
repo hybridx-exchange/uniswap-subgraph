@@ -36,9 +36,7 @@ export function handleNewPair(event: PairCreated): void {
 
   // create the tokens
   let token0 = Token.load(event.params.token0.toHexString())
-  log.debug('token0 address', token0)
   let token1 = Token.load(event.params.token1.toHexString())
-  log.debug('token1 address', token1)
 
   // fetch info if null
   if (token0 === null) {
