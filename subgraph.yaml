@@ -8,7 +8,7 @@ dataSources:
     name: Factory
     network: oeth
     source:
-      address: '0xe3B3eC21D39971eD9dD3b845d16d44e56DE03A36'
+      address: '0xFBc177653FB46d3f39D09970ADd83575e05227d9'
       abi: Factory
       startBlock: 45601
     mapping:
