@@ -15,6 +15,7 @@ import {
 
 export function handleNewPair(event: PairCreated): void {
   // load factory (create if first exchange)
+  log.debug('process PairCreated event', [])
   let factory = UniswapFactory.load(FACTORY_ADDRESS)
   if (factory === null) {
     factory = new UniswapFactory(FACTORY_ADDRESS)
