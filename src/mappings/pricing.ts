@@ -1,6 +1,6 @@
 /* eslint-disable prefer-const */
 import { Pair, Token, Bundle } from '../types/schema'
-import { BigDecimal, Address, BigInt } from '@graphprotocol/graph-ts/index'
+import { BigDecimal, Address, BigInt } from 'dlt-graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from './helpers'
 
 const WETH_ADDRESS = '0x0277962b0177b6F210b55b03781Bb7cf976b3e27'
