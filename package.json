@@ -6,12 +6,12 @@
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "deploy": "graph deploy oeth-uniswap/uniswap --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
-    "create-local": "graph create oeth/dltswap --node http://172.17.0.1:8020 --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae",
-    "remove-local": "graph remove oeth/dltswap --node http://172.17.0.1:8020 --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae",
-    "deploy-local": "graph deploy oeth/dltswap --debug --ipfs http://172.17.0.1:5001 --node http://172.17.0.1:8020 --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae",
+    "deploy": "graph deploy emerald/uniswap --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
+    "create-local": "graph create emerald/uniswap --node http://172.17.0.1:8020 --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae",
+    "remove-local": "graph remove emerald/uniswap --node http://172.17.0.1:8020 --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae",
+    "deploy-local": "graph deploy emerald/uniswap --debug --ipfs http://172.17.0.1:5001 --node http://172.17.0.1:8020 --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae",
     "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME/Uniswap --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/",
-    "watch-local": "graph deploy oeth/dltswap --watch --debug --node http://172.17.0.1:8020/ --ipfs http://172.17.0.1:5001"
+    "watch-local": "graph deploy emerald/uniswap --watch --debug --node http://172.17.0.1:8020/ --ipfs http://172.17.0.1:5001"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.20.1",
