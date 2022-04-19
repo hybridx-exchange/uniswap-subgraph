@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: emerald
+    network: emerald-testnet
     source:
-      address: '0xfb7a5Ca86Be70A359A43B5ad6bF47606f8B7F96B'
+      address: '0x68E86D6fA7AD6f15690149F45b45B22a21B3DDdC'
       abi: Factory
-      startBlock: 3058
+      startBlock: 35000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: emerald
+    network: emerald-testnet
     source:
       abi: Pair
     mapping:
