@@ -1,6 +1,6 @@
 {
-  "extends": "./node_modules/dlt-graph-ts/tsconfig.json",
+  "extends": "./node_modules/@graphprotocol/graph-ts/tsconfig.json",
   "compilerOptions": {
-    "types": ["dlt-graph-ts"]
+    "types": ["@graphprotocol/graph-ts"]
   }
 }
